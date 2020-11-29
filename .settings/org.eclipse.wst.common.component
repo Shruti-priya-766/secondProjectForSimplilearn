@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+            
+    
+    <wb-module deploy-name="SecondProjectForSimpililearn">
+                        
+        
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+                
+        <dependent-module archiveName="jsp-api-2.1-6.0.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/jsp-api-2.1-6.0.2.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="servlet-api-2.5-6.0.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/servlet-api-2.5-6.0.2.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="mysql-connector-java-8.0.13.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/mysql-connector-java-8.0.13.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="commons-lang3-3.11.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/commons-lang3-3.11-bin/commons-lang3-3.11/commons-lang3-3.11.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                        
+        
+        <property name="context-root" value="ser"/>
+                        
+        
+        <property name="java-output-path" value="/SecondProjectForSimpililearn/build/classes"/>
+                    
+    
+    </wb-module>
+        
+
+</project-modules>
